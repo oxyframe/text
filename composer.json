@@ -1,23 +1,26 @@
 {
-    "name": "oxyframe/text",
-    "description": "Easy String and String Manipulation Library",
-    "type": "library",
-    "require-dev": {
-        "phpunit/phpunit": "^9.2"
-    },
-    "license": "MIT",
-    "authors": [{
-        "name": "Sampan Verma",
-        "email": "sampan.developer@gmail.com"
-    }],
-    "require": {
-        "oxyframe/attributes": "dev-master"
-    },
-    "autoload": {
-        "classmap": ["src/"]
-    },
-    "scripts": {
-        "test": "phpunit"
-    },
-    "minimum-stability": "dev"
+  "name": "oxyframe/text",
+  "description": "Easy String and String Manipulation Library",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^9.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sampan Verma",
+      "email": "sampan.developer@gmail.com"
+    }
+  ],
+  "require": {
+    "oxyframe/attributes": "@dev"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
 }
